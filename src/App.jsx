@@ -18,9 +18,9 @@ function App() {
   <nav className="navbar navbar-expand-lg fixed-top bg-dark navbar-dark shadow-sm">
     <div className="container-fluid px-4">
       {/* Brand Name */}
-      <a className="navbar-brand fw-bold text-info" href="#">
+      <Link className="navbar-brand fw-bold text-info" to="">
         Portfolio
-      </a>
+      </Link>
 
       {/* Mobile Toggle */}
       <button
