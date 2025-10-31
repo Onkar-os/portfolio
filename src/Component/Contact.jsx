@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Contact() {
   return (
-    <div className="bg-dark text-light min-vh-100 d-flex flex-column align-items-center justify-content-center p-4">
+    <div className="bg-black text-light min-vh-100 d-flex flex-column align-items-center justify-content-center p-4">
       <div className="text-center mb-5">
         <h2 className="fw-bold display-5 text-info mb-3 animate__animated animate__fadeInDown">
           Get in Touch!

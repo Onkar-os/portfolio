@@ -189,6 +189,7 @@ function Home() {
             alt="Onkar"
             style={styles.profile}
           />
+          
         </div>
       </div>
     </div>
