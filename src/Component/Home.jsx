@@ -110,14 +110,22 @@ function Home() {
 
   return (
     <div style={styles.container}>
-      <p style={styles.intro}>Welcome to my portfolio website!</p>
+      <p style={styles.intro}
+      onMouseEnter={(e) => {
+          e.target.style.color = "dark";
+          e.target.style.textShadow = "0 0 20px cyan";
+          e.target.style.transform = "scale(1.05)";
+        }}
+      >
+        
+        Welcome to my portfolio website!</p>
 
       {/* Animated Name */}
       <h1
         style={styles.name}
         onMouseEnter={(e) => {
-          e.target.style.color = "cyan";
-          e.target.style.textShadow = "0 0 20px cyan";
+          e.target.style.color = "dark";
+          e.target.style.textShadow = "0 0 20px dark";
           e.target.style.transform = "scale(1.05)";
         }}
         onMouseLeave={(e) => {
