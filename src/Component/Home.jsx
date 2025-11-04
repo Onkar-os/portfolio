@@ -107,6 +107,10 @@ function Home() {
       }
     `, styleSheet.cssRules.length);
   }
+ const redirect = () => {
+    window.location.href = "https://github.com/Onkar-os?tab=repositories";
+  
+ }
 
   return (
     <div style={styles.container}>
@@ -168,6 +172,7 @@ function Home() {
               Resume
             </a>
             <button
+            onClick={redirect}
               style={{ ...styles.button, ...styles.workBtn }}
               onMouseEnter={(e) => {
                 e.target.style.background = "cyan";

@@ -8,18 +8,19 @@ function About() {
       <div className="text-center mb-5">
         <h2 className="text-info fw-bold mb-2">ABOUT ME</h2>
         <h3 className="text-primary fw-semibold">I'm Onkar Shinde</h3>
-        <p className="text-secondary fs-5">A Passionate Frontend Developer</p>
+        <p className="text-secondary fs-5">A Passionate Full Stack Developer</p>
       </div>
 
       <div className="container">
         <p className="text-center mx-auto mb-4" style={{ maxWidth: "800px" }}>
-          I am a dedicated and enthusiastic Frontend Developer with a strong
-          passion for creating visually appealing and user-friendly web
-          applications. With a solid foundation in <b>HTML, CSS, and JavaScript</b>,
-          I specialize in crafting responsive designs that provide seamless user
-          experiences. I also work with <b>React.js</b> and <b>Bootstrap</b> to
-          build dynamic interfaces. My goal is to grow technically and contribute
-          to innovative, high-quality projects.
+          I’m a curious and self-driven Full Stack Developer who loves building
+          things that live on the internet. From crafting smooth, interactive
+          frontends with React.js to architecting scalable backends with Java
+          Spring Boot or Node.js, I enjoy every step of the development process.
+          With experience in both MERN Stack and Java Full Stack, I focus on
+          writing clean, efficient code and delivering projects that combine
+          performance with great user experience. I’m always eager to learn,
+          collaborate, and contribute to products that make a difference.
         </p>
 
         <ul className="list-unstyled text-center mb-5">
@@ -101,11 +102,11 @@ function About() {
             Web Developer Intern — RightShift Infotech
           </h4>
           <p className="text-light">
-            During my internship, I worked on real-world web development projects
-            involving frontend and backend integration. I gained hands-on
-            experience with React.js, Node.js, Express.js, and MongoDB, and
-            learned how to design and deploy responsive, dynamic web applications
-            in a collaborative team environment.
+            During my internship, I worked on real-world web development
+            projects involving frontend and backend integration. I gained
+            hands-on experience with React.js, Node.js, Express.js, and MongoDB,
+            and learned how to design and deploy responsive, dynamic web
+            applications in a collaborative team environment.
           </p>
         </div>
 
